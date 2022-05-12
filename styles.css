@@ -1,0 +1,720 @@
+.Navigation-Bar {
+    display: flex;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 1px;
+    background-color: #FAFAFA;
+    position: absolute;
+}
+.Navigation-Bar .logo {
+    width: 41px;
+    height: 39px;
+    top: 39px;
+    left: 80px;
+    position: absolute;
+    font-family: "HomemadeApple-Regular";
+
+}
+.Navigation-center {
+    display: flex;
+    width: 1440px;
+    height: 61.87px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 23.33%;
+    bottom: 23.33%;
+}
+.Navigation-center .links {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 331px;
+    height: 21.27px;
+    left: 554px;
+    top: 20.3px;
+
+}
+.button-secondary {
+    position: absolute;
+    width: 140px;
+    height: 38.67px;
+    top: 17.19%;
+    left: 87.5%;
+    right: 2.78%;
+    bottom: 20.31%;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+
+}
+.hero-side-image-right {
+    display: flex;
+    position: absolute;
+    height: 700px;
+    width: 1440px;
+    left: 0px;
+    top: 117px;
+    border-radius: 0px;
+    left: 0%;
+    background-color: #F1F1F2;
+    flex-direction: column;
+
+}
+.content {
+    
+    height: 411px;
+    width: 433px;
+    left: 162px;
+    top: 154px;
+    border-radius: 0px;
+    position: absolute;
+    
+
+}
+.content .title {
+   
+ height: 206px;
+ width: 433px;
+ left: 162px;
+ top: 154px;
+ font-family: 'Gilroy';
+ font-size: 56px;
+ line-height: 69px;
+ border-radius: nullpx;
+    
+    
+
+}
+.content .subtitle {
+    width: 422px;
+    height: 57px;
+    top: 396px;
+    left: 162px;
+    font-size: 20px;
+    line-height: 140.62%;
+    font-size: 20px;
+
+}
+.button-primary {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 162px;
+    top: 505px;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 1px solid #F7941E;
+    
+}
+.photo {
+    height: 700px;
+    width: 719px;
+    left: 721px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+.Feature-split-right {
+    display: flex;
+    height: 600px;
+    width: 1440px;
+    left: 0px;
+    top: 817px;
+    position: absolute;
+    background-color: #F1F1F2;
+}
+.Feature-split-right .content {
+    
+    position: absolute;
+    height: 332px;
+    width: 441px;
+    left: 833px;
+    top: 164px;
+    bottom: 17.33%
+}
+.Feature-split-right .content .title {
+    height: 45px;
+    width: 194px;
+    left: 833px;
+    top: 164px;
+    right: 28.68%;
+    bottom: 65.17%;
+    font-family: 'Gilroy';
+    font-size: 32px;
+    line-height: 140.62%;
+}
+.Feature-split-right .content .subtitle {
+    left: 57.85%;
+    right: 11.53%;
+    top: 38.67%;
+    bottom: 33.17%;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    margin-top: 5%;
+}
+.button3 {
+    position: absolute;
+    left: 57.85%;
+    right: 28.26%;
+    top: 72.67%;
+    bottom: 17.33%;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+.thx {
+    position: absolute;
+    left: 0%;
+    right: 49.93%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.Posts-tall {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: 0px;
+    top: 1417px;
+    background-color: #FFFFFF;
+}
+.Posts-tall .title {
+    position: absolute;
+width: 422px;
+height: 39px;
+left: calc(50% - 422px/2);
+top: 96px;
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+}
+.Posts-tall .subtitle {
+    position: absolute;
+width: 454px;
+height: 25px;
+left: calc(50% - 454px/2);
+top: 158px;
+
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 135.94%;
+text-align: center;
+}
+
+.card1 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 - 450px);
+top: 247px;
+
+filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+background-color: #FAFAFA;
+}
+.BD {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm1 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card2 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 - 150px);
+top: 247px;
+background-color:#FAFAFA ;
+}
+.anniversary {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm2 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card3 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 + 150px);
+top: 247px;
+background-color:#FAFAFA ;
+
+}
+.valentines-day {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm3 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card4 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 + 450px);
+top: 247px;
+}
+.xmas {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm4 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.CTA-section {
+    display: flex;
+    position: absolute;
+width: 1440px;
+height: 240px;
+left: 0px;
+top: 2237px;
+background-color: #F7941E;
+box-sizing: border-box;
+}
+.group {
+    position: absolute;
+left: 16.32%;
+right: 61.11%;
+top: 33.75%;
+bottom: 28.75%;
+
+}
+.CTA-section .group .title {
+left: 16.32%;
+right: 61.11%;
+top: 33.75%;
+bottom: 47.5%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+}
+.CTA-section .group .subtitle {
+    left: 16.32%;
+right: 62.01%;
+top: 52.5%;
+bottom: 28.75%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+}
+.black {
+    position: absolute;
+    left: 54.79%;
+    right: 31.32%;
+    top: 40%;
+    bottom: 40%;
+    color: #FFFFFF;
+    background-color: #231F20;
+    border-radius: 5px;
+}
+.button5 {
+    position: absolute;
+left: 69.79%;
+right: 16.32%;
+top: 40%;
+bottom: 40%;
+color: #000000;
+border: 1px solid #000000;
+border-radius: 5px;
+background-color: #F7941E;
+}
+
+.Posts-blog-top {
+    display: flex;
+    position: absolute;
+width: 1440px;
+height: 860px;
+left: 0px;
+top: 2643px;
+}
+.group1 {
+    position: absolute;
+width: 507px;
+height: 87px;
+left: 467px;
+top: -78px;
+}
+.group1 .title {
+left: 35.35%;
+right: 35.35%;
+top: -9.07%;
+bottom: 104.53%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+
+text-align: center;
+}
+.group1 .subtitle {
+    left: 32.43%;
+right: 32.36%;
+top: -1.86%;
+bottom: 98.95%;
+
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 135.94%;
+
+text-align: center;
+}
+.blog-card-feature {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.3%;
+    bottom: 47.67%;
+    background-color: #231F20;
+    display: flex;
+}
+
+.img {
+left: 9.38%;
+right: 62.85%;
+top: 9.3%;
+bottom: 47.67%;
+}
+.blog-card-feature .link {
+    left: 42.57%;
+    right: 51.18%;
+    top: 43.6%;
+    bottom: 53.37%;
+    margin-top: 15%;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+
+}
+.blog-card-feature .author {
+    left: 42.57%;
+right: 51.6%;
+top: 16.63%;
+bottom: 81.05%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+
+color: #FFFFFF;
+}
+.blog-card-feature .title {
+    left: 42.57%;
+right: 23.26%;
+top: 22.09%;
+bottom: 63.37%;
+margin-top: 15%;
+margin-bottom: 15%;
+
+font-family: 'Gilroy';
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+}
+
+.blog-card1 {
+    position: absolute;
+left: 9.38%;
+right: 51.04%;
+top: 56.98%;
+bottom: 9.3%;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.blog-card1 .title{
+    left: 12.71%;
+    right: 54.38%;
+    top: 62.56%;
+    bottom: 29.53%;
+    
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 140.62%;
+}
+.blog-card1 .summary {
+    left: 12.71%;
+right: 54.38%;
+top: 72.33%;
+bottom: 19.3%;
+
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 140.62%;
+margin-top: 5%;
+}
+.blog-card1 .link {
+    left: 12.71%;
+    right: 82.43%;
+    top: 82.56%;
+    bottom: 15.12%;
+    
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 140.62%; 
+    margin-top: 15%;   
+}
+
+.blog-card2 {
+    position: absolute;
+left: 51.04%;
+right: 9.38%;
+top: 56.98%;
+bottom: 9.3%;
+}
+.blog-card2 .title {
+    left: 54.38%;
+    right: 12.71%;
+    top: 62.56%;
+    bottom: 29.53%;
+    
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 140.62%;
+}
+.blog-card2 .summary {
+    left: 54.38%;
+    right: 12.71%;
+    top: 72.33%;
+    bottom: 19.3%;
+    
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 140.62%;
+}
+.blog-card2 .link {
+    left: 54.38%;
+    right: 40.76%;
+    top: 82.56%;
+    bottom: 15.12%;
+    
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 140.62%;
+    margin-top: 10%;
+}
+
+
+
+.center {
+    position: absolute;
+    width: 1440px;
+    height: 410px;
+    left: 0px;
+    top: 3503px;
+}
+.Logo {
+    position: absolute;
+    visibility: hidden;
+    left: 39.93%;
+    right: 39.51%;
+    top: 8.29%;
+    bottom: 48.78%; 
+}
+.group7 {
+    position: absolute;
+width: 41px;
+height: 39px;
+left: 706px;
+top: 106px;
+}
+.group7 .logo {
+width: 41px;
+height: 39px;
+left: 706px;
+top: 106px;
+color: #F7941E;
+font-family: "HomemadeApple-Regular";
+}
+.links-left {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+left: 28.19%;
+right: 60.76%;
+top: 28.05%;
+bottom: 67.07%;
+}
+.links-left .link1 {
+left: 28.19%;
+right: 69.17%;
+top: 28.05%;
+bottom: 67.07%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+}
+.links-left .link2 {
+    left: 36.46%;
+    right: 60.76%;
+    top: 28.05%;
+    bottom: 67.07%;
+    
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 140.62%;
+}
+
+.links-right {
+    display: flex;
+    position: absolute;
+left: 61.67%;
+right: 29.17%;
+top: 28.05%;
+bottom: 67.07%;
+justify-content: space-between;
+}
+
+.solid {
+    position: absolute;
+left: 15.28%;
+right: 15.28%;
+top: 45.85%;
+bottom: 54.15%;
+
+border: 1px solid #000000;
+}
+.copyright {
+    position: absolute;
+    left: 42.92%;
+right: 50.56%;
+top: 86.59%;
+bottom: 8.54%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+text-align: center;
+}
+.PS {
+    position: absolute;
+left: 50.42%;
+right: 42.57%;
+top: 86.59%;
+bottom: 8.54%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+text-align: center;
+}
+
+@font-face {
+    font-family: "HomemadeApple-Regular";
+    src: url("fonts/HomemadeApple-Regular.ttf")
+}
+@font-face {
+    font-family: 'Gilory';
+    src: url("fonts/Gilroy-Regular.ttf")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
