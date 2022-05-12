@@ -48,7 +48,12 @@
     border: 1px solid #F7941E;
     border-radius: 5px;
     background-color: #FAFAFA;
-
+    
+}
+.button-secondary:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 2px 1px 2px #bdb9b9;
 }
 .hero-side-image-right {
     display: flex;
@@ -109,6 +114,11 @@
     color: #FFFFFF;
     border: 1px solid #F7941E;
     
+}
+.button-primary:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 2px 1px 2px #bdb9b9;    
 }
 .photo {
     height: 700px;
@@ -172,6 +182,12 @@
     border: 1px solid #F7941E;
     border-radius: 5px;
 }
+
+.button3:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 2px 1px 2px #bdb9b9;
+}
 .thx {
     position: absolute;
     left: 0%;
@@ -219,8 +235,6 @@ width: 270px;
 height: 436px;
 left: calc(50% - 270px/2 - 450px);
 top: 247px;
-
-filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
 background-color: #FAFAFA;
 }
 .BD {
@@ -321,6 +335,8 @@ width: 270px;
 height: 436px;
 left: calc(50% - 270px/2 + 450px);
 top: 247px;
+background-color: #FAFAFA;
+
 }
 .xmas {
     position: absolute;
@@ -345,6 +361,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
+}
+.cards:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
 }
 
 .CTA-section {
@@ -395,6 +416,11 @@ line-height: 140.62%;
     background-color: #231F20;
     border-radius: 5px;
 }
+.black:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    
+}
 .button5 {
     position: absolute;
 left: 69.79%;
@@ -405,6 +431,10 @@ color: #000000;
 border: 1px solid #000000;
 border-radius: 5px;
 background-color: #F7941E;
+}
+.button5:hover {
+    transform: scale(1.1);
+    transition: 0.2s;   
 }
 
 .Posts-blog-top {
@@ -508,7 +538,6 @@ left: 9.38%;
 right: 51.04%;
 top: 56.98%;
 bottom: 9.3%;
-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 .blog-card1 .title{
     left: 12.71%;
@@ -581,6 +610,21 @@ bottom: 9.3%;
     line-height: 140.62%;
     margin-top: 10%;
 }
+.blog-card1:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+
+
+}
+.blog-card2:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+
+
+}
+
 
 
 
